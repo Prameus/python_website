@@ -1,0 +1,10 @@
+.body{
+ color:#fffaaa;
+}
+body #sometag{
+    color:#ffffff;
+}
+li{
+    color: purple;
+    background-color: purple;
+}

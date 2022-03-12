@@ -1,0 +1,25 @@
+body{
+    background:linear-gradient(to top,#733083,rgb(11, 201, 182));
+}
+body h1{
+    padding-top: 50px;
+    text-align: center;
+    color: #ffaaaa;
+    font-size: 70;
+}
+body ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+
+}
+body ul li{
+    
+    list-style:none;
+    margin-left: 70px;
+    padding-top: 100px;
+}
+body ul li img{
+    width: 250px;
+    height: 300px;
+}
