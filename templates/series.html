@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yamate kudasai</title>
+    <link href="{{ url_for('static', filename='css/series.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <h1>YOU ARE ABSOLUTELY GAY, {{series}}</h1>
+    <ul>
+        {% for day in days%}
+        <li>
+            {{day|upper}}
+        </li>
+        {% if day=='monday'%}
+        </h1>{{day}} <h1>
+            {%endif%}
+            {%endfor%}
+    </ul>
+</body>
+
+</html>
+{%endblock%}

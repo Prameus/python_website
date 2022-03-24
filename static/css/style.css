@@ -1,5 +1,6 @@
 .body{
  color:#fffaaa;
+ background-color: blue;
 }
 body #sometag{
     color:#ffffff;
@@ -7,4 +8,7 @@ body #sometag{
 li{
     color: purple;
     background-color: purple;
+}
+body h1{
+    color:blue;
 }

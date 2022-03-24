@@ -7,6 +7,19 @@ body h1{
     color: #ffaaaa;
     font-size: 70;
 }
+body ul #titles{
+    justify-content: center;
+    display: flex;
+
+}
+body #titles li{
+    text-transform: uppercase;
+    color: #99DD9B;
+    list-style: none;
+    margin-left:150 ;
+    padding-right:100 ;
+
+}
 body ul{
     display: flex;
     justify-content: center;
@@ -20,6 +33,6 @@ body ul li{
     padding-top: 100px;
 }
 body ul li img{
-    width: 250px;
-    height: 300px;
+    width: 35vh;
+    height: 35vh;
 }

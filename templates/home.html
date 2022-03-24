@@ -1,24 +1,26 @@
-{%extends 'base.html'%}
-{%block title%}
-Home Page
-{%endblock%}
-{%block content%}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+{% include 'navbar.html' %}
+<div class="container">
+    {% block content %}
+    {%endblock%}
+</div>
+<p>asdsadasdaljkdajklsdsakjld</p>
 <h1 id="sometag">Home Page</h1>
 <ul>
     <li>
         <a href="https://www.w3schools.com">
-            <img src="../images/golan_trevize.jpg">
+            <img src="{{url_for('static', filename='images/golan_trevize.jpg')}}" width="1000" height="1000" />
         </a>
     </li>
     <li>
-        <a><img src="../images/hannibal.jpg">
+        <a><img src="{{url_for('static', filename='images/hannibal.jpg')}}">
     </li>
     <li>
-        <a><img src="../images/leluch.jpg"></a>
+        <a><img src="{{url_for('static', filename='images/leluch.jpg')}}"></a>
     </li>
     <li>
-        <a><img src="../images/skyrim_guard.jpg"></a>
+        <a><img src="{{url_for('static', filename='images/skyrim_guard.jpg')}}"></a>
     </li>
 
 </ul>
-{%endblock%}
