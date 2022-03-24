@@ -22,7 +22,7 @@ class Connection:
         doctor_who = []
         good_omens = []
 
-        series = get.pull_chapters()
+        series = get.get_data.pull_chapters()
         for serial in series:
             for season in range(0, 4):
                 chapters = series[serial][season]
@@ -48,6 +48,6 @@ class Connection:
         pass
 
 
-connection = Connection()
-connection.collection_content()
+connection_database = Connection()
+connection_database.collection_content()
 # connection.get_data()

@@ -22,7 +22,7 @@ data = response.json()
 
 class GetData:
     def pull_from_database(self):
-        connection.connection.collection_content()
+        connection.connection_database.collection_content()
 
     def pull_chapters(self):
         all_serials = {}

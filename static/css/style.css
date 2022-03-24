@@ -1,6 +1,7 @@
 .body{
  color:#fffaaa;
  background-color: blue;
+ display:flex;
 }
 body #sometag{
     color:#ffffff;
